@@ -6,7 +6,7 @@ import scala.collection.mutable.ArrayBuffer
   * 1260 = 21 * 60, 1395 = 15 * 93, 1435 = 35 * 41, 1530 = 30 * 51, 1827 = 21 * 87,  2187 = 27 * 81, 6880 = 80 * 86
   * Created by WLZhong on 2016/11/17.
   */
-object vampires extends App
+object vampires
 {
   //防止找出重复的
   var result = ArrayBuffer[Int]()
